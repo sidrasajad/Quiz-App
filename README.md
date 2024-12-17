@@ -19,11 +19,11 @@ The Quiz App is a dynamic, user-friendly web application built using ES6 JavaScr
   - Clean layout to display questions and answers.
   - Button for navigating to the next question.
 - **CSS**:
-- Modern and user-friendly design with readable fonts, colors, and spacing.
+  - Modern and user-friendly design with readable fonts, colors, and spacing.
 - **JavaScript (ES6)**:
-- **Classes**: Handles quiz logic and question rendering.
-- **Modules**: Separates logic and question data for better maintainability.
-- **Arrow Functions:**: Used for callbacks and event handlers.
-- **Template Literals:**: Dynamically generates HTML for questions and answers.
-- **Array Methods:**: Efficiently processes and renders questions using .map().
-- **Destructuring**: Extracts data from question objects for clean code.
+  - **Classes**: Handles quiz logic and question rendering.
+  - **Modules**: Separates logic and question data for better maintainability.
+  - **Arrow Functions:**: Used for callbacks and event handlers.
+  - **Template Literals:**: Dynamically generates HTML for questions and answers.
+  - **Array Methods:**: Efficiently processes and renders questions using .map().
+  - **Destructuring**: Extracts data from question objects for clean code.
