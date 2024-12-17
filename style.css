@@ -1,0 +1,273 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(65,93,236);
+    background: radial-gradient(circle, rgba(65,93,236,1) 0%, rgba(181,70,119,0.969625350140056) 100%);
+    margin: 0;
+    padding: 0;
+}
+
+.quiz-container {
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 80px auto 0;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.quiz-container h1
+{
+    font-size: 30px;
+    color:rgb(128, 30, 128);
+    font-weight: 600;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#progress-bar-container {
+    height: 5px;
+    background-color: #ddd;
+    margin: 10px 0;
+}
+
+#progress-bar {
+    height: 5px;
+    background-color: rgb(128, 30, 128);
+    width: 0%;
+    transition: width 0.4s;
+}
+
+#question-container
+{
+    padding: 5px 0;
+}
+
+h2
+{
+    font-size: 20px;
+    color: #073277;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.options
+{
+    background: #fff;
+    color: #222;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.options:hover
+{
+    background: #222;
+    color: #fff;
+}
+.options:disabled
+{
+    cursor: no-drop;
+}
+
+#next-button
+{
+    background: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px 0 20px 200px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#next-button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+button.hidden {
+    display: none;
+}
+
+#result {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+
+
+#reset-button {
+    padding: 10px 20px;
+    margin: 20px 0 20px 200px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #28a745;
+    color: white;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+}
+
+#reset-button:hover {
+    background-color: yellowgreen;            
+}
+
+/* Responsive styles for mobile devices (max-width: 600px) */
+@media screen and (max-width: 600px) {
+    .quiz-container {
+        width: 95%;
+        padding: 15px;
+        margin: 20px auto;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .options {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    #next-button, #reset-button {
+        width: 100%;
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    #progress-bar-container {
+        height: 4px;
+    }
+
+    #progress-bar {
+        height: 4px;
+    }
+
+    #result {
+        font-size: 16px;
+    }
+}
+
+/* Responsive styles for tablets (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .quiz-container {
+        width: 90%;
+        padding: 20px;
+        margin: 40px auto;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .options {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    #next-button, #reset-button {
+        width: 180px;
+        font-size: 16px;
+        margin: 15px 0;
+    }
+
+    #progress-bar-container {
+        height: 5px;
+    }
+
+    #progress-bar {
+        height: 5px;
+    }
+
+    #result {
+        font-size: 18px;
+    }
+}
+
+/* Responsive styles for larger phones and small tablets (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+    .quiz-container {
+        width: 85%;
+        padding: 25px;
+        margin: 60px auto;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .options {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    #next-button, #reset-button {
+        width: 180px;
+        font-size: 16px;
+    }
+
+    #progress-bar-container {
+        height: 6px;
+    }
+
+    #progress-bar {
+        height: 6px;
+    }
+
+    #result {
+        font-size: 18px;
+    }
+}
+
+/* Large screens (e.g., desktops) */
+@media screen and (min-width: 1025px) {
+    .quiz-container {
+        max-width: 700px;
+        margin: 80px auto 0;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .options {
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    #next-button, #reset-button {
+        width: 180px;
+        font-size: 18px;
+        margin: 20px 0 20px 220px;
+    }
+
+    #progress-bar-container {
+        height: 6px;
+    }
+
+    #progress-bar {
+        height: 6px;
+    }
+
+    #result {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
