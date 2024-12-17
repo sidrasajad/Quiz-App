@@ -6,19 +6,20 @@ The Quiz App is a dynamic, user-friendly web application built using ES6 JavaScr
 
 - **Multiple-Choice Questions**: Displays one question at a time with multiple-choice options.
 - **Interactive UI**: Buttons to select answers and proceed to the next question.
+- **Progress Bar**: Indicates the user’s progress through the quiz visually.
 - **Score Display**: Provides final score and feedback upon completion.
 - **Persistent Data**: Saves the user’s score in localStorage so it can be viewed after refreshing the page.
 
 ## Screenshots
 
 ### Screenshot-01
-![Quiz App Screenshot](Image/Capture1.PNG)
+![Quiz App Screenshot](Images/Capture1.PNG)
 
 ### Screenshot-02
-![Quiz App Screenshot](Image/Capture2.PNG)
+![Quiz App Screenshot](Images/Capture2.PNG)
 
 ### Screenshot-03
-![Quiz App Screenshot](Image/Capture3.PNG)
+![Quiz App Screenshot](Images/Capture3.PNG)
 
 ## Technologies Used
 
